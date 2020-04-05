@@ -4,23 +4,41 @@
    <title>Sidney Crosby</title>
    <link href="css.css" rel="stylesheet">
   </head>
- <body style="background-color: #92BFFF; color: black;">
-     <h1>Sidney Crosby</h1>
+ <body>
+     <a id="sidney">
+       <h1>Sidney Crosby</h1>
+     </a>
      <img src="Crosby.jpg" alt="crosby">>
-     <h3> Kdo to je?</h3>
-
-     <b>Sidney Crosby </b>(* 7. srpna 1987, Halifax, Nové Skotsko, Kanada) je kanadský hokejový útočník. Hraje za klub Pittsburgh Penguins v NHL a na mezinárodní scéně reprezentuje Kanadu.
+     
+     
+     <div class="kdo to je">
+         <div class="nadpis">
+          <h3> Kdo to je?</h3>
+         </div>
+      <div>
+     <b>Sidney Crosby </b>
+     </div>
+     (* 7. srpna 1987, Halifax, Nové Skotsko, Kanada) je kanadský hokejový útočník. Hraje za klub Pittsburgh Penguins v NHL a na mezinárodní scéně reprezentuje Kanadu.
      <p>
+     <br>   
      Již před vstupem do NHL byl považován za jeden z největších talentů historie. Ve své úvodní sezóně 05/06 získal v kanadském bodování 102 bodů a stal se nejmladším hráčem v historii NHL, kterému se podařilo překonat stobodovou hranici. V roce 2007 byl jmenován kapitánem Pittsburghu a stal se nejmladším kapitánem v historii NHL. V roce 2009 jako nejmladší kapitán v historii dovedl svůj tým k vítězství ve Stanley Cupu. Na ZOH 2010 získal s kanadskou reprezentací zlatou olympijskou medaili, když v prodloužení rozhodl finálový zápas proti USA. Na ZOH 2014 získal také zlatou medaili. Po zisku zlaté medaile z mistrovství světa v roce 2015 v Praze se stal členem prestižního Triple Gold Clubu.
      </p>
+     </div> 
+     
+     
+     
      <br>
-    <b> NHL Kariéra </b>
+    <center>
+     <b> NHL Kariéra </b>
     <br> <a href="index2.php">odkaz zde</a> 
     <br>
     <br>
      <b> Více informací</b>
     <br>
-    <a href="https://cs.wikipedia.org/wiki/Sidney_Crosby">Klikni zde</a>  
+    <a href="https://cs.wikipedia.org/wiki/Sidney_Crosby">Klikni zde</a> 
+    </center>
+    <br>
+    <br>
      <i>Pokud chcete dostávat aktuální informace prosím přihlaste se </i>
      <br>
      <input type = text> jméno

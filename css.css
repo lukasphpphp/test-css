@@ -1,0 +1,32 @@
+html {
+    background: #92BFFF;
+}
+body {
+    background: #fff;
+ font-family: "calibri";
+    font-size:20px;
+    line-height: 1.5;
+    max-width: 1000px;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 0 auto;
+}
+
+.kdo to je{
+   } 
+   
+.nadpis{
+   } 
+   
+   
+   
+   
+table {
+  border-collapse: collapse;
+  width: 25%;
+  height: 10px;
+}
+table, th, td {
+  border: 2px solid black;
+}
