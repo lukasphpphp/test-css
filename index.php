@@ -149,7 +149,7 @@
     
      
      
-                       <table class="heslatabulka" span= "padding-top": 25px;>
+        
 
      
      
