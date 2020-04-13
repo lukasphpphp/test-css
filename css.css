@@ -1,26 +1,60 @@
-html {
+Shtml {
     background: #92BFFF;
 }
+
+h3 {
+    font-size: 40px;
+}
+
 body {
+    color: black;
     background: #fff;
- font-family: "calibri";
+    font-family: "calibri";
     font-size:20px;
     line-height: 1.5;
     max-width: 1000px;
-    padding-top: 50px;
+    padding-top: 40px;
     padding-left: 50px;
     padding-right: 50px;
     margin: 0 auto;
 }
 
-.kdo to je{
-   } 
+header{
+    display: table;
+    width: 100%;
+
+    
+}
+
+#lista li{
+     list-style: none;
+     float: right;
+     margin-left: 50px;
+}
+
+#lista {
+  margin: 0;
+  padding: 0;
+  top: 0;
+  padding-right: 10px;
+}
+
+.listacela{
+   border: solid black 2.5px;
+}
+
+#sidney{
+    font-size:40px;
+    float: left;
+    margin: 30px;
+ 
+ } 
+ 
+
+.informace{
+   padding-left: 20px;
    
-.nadpis{
-   } 
-   
-   
-   
+}   
    
 table {
   border-collapse: collapse;
@@ -29,4 +63,48 @@ table {
 }
 table, th, td {
   border: 2px solid black;
+}
+
+.link:link {
+    color:seagreen;
+}
+
+.link:visited{
+    color: red; 
+}
+
+#fotka{
+    border: 10px solid #92BFFF;
+    height: 500px;
+    width: 95%;
+}
+
+.heslatabulka {
+    border:1px;
+    background-color: #DED87D; 
+    width: 25%;
+
+}
+
+#tlacitko{
+    padding-left: 90px;
+    
+}
+
+.nahoru{
+    width: 80px;
+    height: 50px;
+    background-color: #fff;
+    margin-left: 1150px;
+    position: fixed;
+    border: 3px solid black;
+    padding-bottom: 30px;
+}
+
+.nahoru2{
+     text-align: center;
+}
+
+h4 {
+    font-size: 20px;
 }
