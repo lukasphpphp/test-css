@@ -37,10 +37,8 @@
          <li><a href="#kdotoje"> Kdo to je </a> </li>
          <li> <a href="#historie"> Historie </a> </li>
          <li> <a href="#Odkazydale"> Odkazy dále </a> </li>
-         <ul>
-             <li>NHL Kariéra  </li>
-             <li> Více informací  </li>
-         </ul>         
+         <li class="NHL">NHL Kariéra  </li>
+         <li class="NHL"> Více informací  </li>       
          <li> <a href="#prihlaseni"> Přihlášení </a> </li>
          <li> <a href="#tabulka"> tabulka </a> </li>   
      </ul>
