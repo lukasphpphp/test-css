@@ -1,10 +1,9 @@
-<!DOCTYPE html>
+<!doctype HTML>
 <html lang="cs">
   <head>
    <title>Sidney Crosby</title>
    <link href="css.css" rel="stylesheet">
   </head>
- 
   <body>
      <header>
       <div class="listacela">       
@@ -22,12 +21,9 @@
      </header>
       
       <div class="nahoru">
-          <div class="nahoru2">
-              
-                  <a href="#sidney"><h4 id="mensi">nahoru</h4> </a>
-              
-          </div>
-          
+          <div class="nahoru2">            
+                  <a href="#sidney"><h4 id="mensi">nahoru</h4> </a>             
+          </div>        
       </div>
       
       
@@ -38,23 +34,23 @@
      
      <h3>Obsah</h3>
      <ul>
-         <li> <a href="#kdo to je"> Kdo to je  </li> </a>
-         <li> <a href="#historie"> Historie </li></a>
-         <li> <a href="#Odkazy dále"> Odkazy dále </li></a>
-         <ol>
+         <li><a href="#kdotoje"> Kdo to je </a> </li>
+         <li> <a href="#historie"> Historie </a> </li>
+         <li> <a href="#Odkazydale"> Odkazy dále </a> </li>
+         <ul>
              <li>NHL Kariéra  </li>
              <li> Více informací  </li>
-         </ol>         
-         <li> <a href="#prihlaseni"> Přihlášení </li></a>
-         <li> <a href="#tabulka"> tabulka</li> </a>   
+         </ul>         
+         <li> <a href="#prihlaseni"> Přihlášení </a> </li>
+         <li> <a href="#tabulka"> tabulka </a> </li>   
      </ul>
      <br>
      <hr>
      
      <div>
-         <div id='kdo to je'>
+         <a id="kdotoje">
           <h3> Kdo to je?</h3>
-         </div>
+         </a>
       <div>
      <b>Sidney Crosby </b>
      </div>
@@ -81,58 +77,55 @@
      
      <br>
      
-    <div>
-      <center>
-     <b id="Odkazy dále"> NHL Kariéra </b>
-    <br> 
-    <a href="index2.php" class="link">odkaz zde</a> 
-    <br>
-    <br>
+    <div id="uprostred">
+     <b id="Odkazydale"> NHL Kariéra </b>
+     <br> 
+     <a href="index2.php" class="link">odkaz zde</a> 
+     <br>
+     <br>
      <b> Více informací</b>
-    <br>
-    <a href="https://cs.wikipedia.org/wiki/Sidney_Crosby" class="link">Klikni zde</a> 
-    </center>
-     </div>
+     <br>
+     <a href="https://cs.wikipedia.org/wiki/Sidney_Crosby" class="link">Klikni zde</a> 
+    </div>
      
      
      
     <br>
     <hr>
-    
-    <div id="prihlaseni">
-         <br>
-               <center>
-                   <i>Pokud chcete dostávat aktuální informace prosím přihlaste se </i>
-               </center>
-         <div class="hesla" >
-             <center>
-                  <table class="heslatabulka" span style="margin-top: 20px;">           
-                      <tbody>
-                         <tr>
-                             <td><input type = text> Jméno <br>
+    <br>
+    <div id="uprostred2">
+      <i>Pokud chcete dostávat aktuální informace prosím přihlaste se </i>
+    </div>
+         <div id="prihlaseni">
+              <table class="heslatabulka">           
+                  <tbody>
+                      <tr>
+                         <td> 
+                             <input type = text> Jméno <br>
                              <input type = password> Heslo<br>
-                             <select name = pohlaví> <br>
+                             <select name = pohlaví>
                                  <option value = 1> Muž
                                  <option value = 2> Žena
-                            </select> Vyberte pohlaví <br>
-                            <input type="checkbox"> Pamatovat si mě<br>
-                            <div id="tlacitko">
+                             </select> Vyberte pohlaví 
+                            <br>
+                             <input type="checkbox"> Pamatovat si mě<br>
+                             <div id="tlacitko">
                               <button type="submit" >Přihlásit</button>
-                            </div></td>
-                         </tr>            
-                     </tbody>
-                 </table>
-            </center>
+                            </div>
+                         </td>
+                     </tr>            
+                 </tbody>
+             </table>
          </div>
     <br>
-    </div>     
+         
     
     <hr> 
     
     
      <br>
      <br>
-     <span style="color: yellow;">Nyní tabulka</span>
+     <div id="nynitabulka">Nyní tabulka</div>
      <div id="tabulka">
       <table>
        <tr> <th colspan="2">1.1</th> <td>1.3</td> <td>1.4</td> <td>1.5</td> <td>1.6</td> <td>1.7</td> <td>1.8</td> <td>1.9</td> <td>1.10</td></tr>

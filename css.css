@@ -1,4 +1,4 @@
-Shtml {
+html {
     background: #92BFFF;
 }
 
@@ -83,8 +83,11 @@ table, th, td {
     border:1px;
     background-color: #DED87D; 
     width: 25%;
+    margin-top: 20px;
+    margin-left: 37%;
 
 }
+
 
 #tlacitko{
     padding-left: 90px;
@@ -107,4 +110,15 @@ table, th, td {
 
 h4 {
     font-size: 20px;
+}
+
+#nynitabulka{
+    color: yellow;
+}
+
+#uprostred{
+    padding-left: 420px;
+}
+#uprostred2{
+    padding-left: 250px;
 }
