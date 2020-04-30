@@ -59,4 +59,6 @@ $PromennaBoleen = true;                   //ukol c. 4.
   
   var_dump ($a && $b);
   var_dump (!$a);
+  
+  //pokračování test
    
