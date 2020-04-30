@@ -64,18 +64,20 @@ $PromennaBoleen = true;                   //ukol c. 4.
   
   //pokračování test
    
-  $LukasNevedel1 = 1;      //ukol c. 3.
-  $LukasNevedel2 = 2;
+  $LukasNevedel1 = 1;                     //ukol c. 3.
+  $LukasNevedel2 = 1;
   
-  if (1<2) {
-      echo 'Lukas Nevedel';     //ukol c. 4     
+  
+  if (1<2) {                             //ukol c. 4
+      echo 'Lukas Nevedel';         
   }
   echo '<br>';
   
-  if (10<5) {                   //ukol c. 5
+  
+  if (10<5) {                             //ukol c. 5
       echo 'neplati';
   }   else if (5<10){
-         echo 'Lukas';
+         echo 'Lukas ';
   }   if (20<10){
          echo 'neplati';
   }   else {
@@ -83,7 +85,26 @@ $PromennaBoleen = true;                   //ukol c. 4.
   }
   echo '<br>';
   
-  switch ($LukasNevedel2){          //ukol c. 7
+  
+  
+  
+  if (1 <2) {                             //ukol c. 6
+     echo 'Lukas ';
+	if (5 != 10) { 
+		echo 'Nevedel'; 
+	} else { 
+		echo 'nic'; 
+	} 
+ 
+} else { 
+    echo 'nic'; 
+}
+echo '<br>';
+  
+
+
+
+  switch ($LukasNevedel2){                 //ukol c. 7
      case 1:
         echo '1';
         break;
@@ -105,11 +126,24 @@ $PromennaBoleen = true;                   //ukol c. 4.
   }
   echo '<br<';
   
-  $Ovoce = array('ananas', 'avokádo', 'banán', 'datle', 'fík', 'meruňka', 'nektarinka', 'jahody', 'jablko', 'malina' );  //ukol c. 8
+  $Ovoce = array(1 =>'ananas', 'avokádo', 'banán', 'datle', 'fík', 'meruňka', 'nektarinka', 'jahody', 'jablko', 'malina' );  //ukol c. 8
+  echo '<br<';
   
-  $Veci["NaSklade"]["ovoce"]["Bobulové"]= "";
-  $Veci["NaSklade"]["ovoce"]["Bobulové"]= "rybíz";
-  $Veci["NaSklade"]["ovoce"]["Bobulové"]= "Bobulové";
+  
+  
+  $Veci["NaSklade"]["ovoce"]["Bobulové"]= "Maliny";        //ukol c. 9
+  $Veci["NaSklade"]["ovoce"]["Bobulové"]= "Rybíz";
+  $Veci["NaSklade"]["ovoce"]["Bobulové"]= "angrešt";
+  $Veci["NaSklade"]["ovoce"]["Bobulové"]= "borůvky";
+  $Veci["NaSklade"]["ovoce"]["Bobulové"]= "ostružiny";
+  $Veci["NaSklade"]["ovoce"]["Bobulové"]= "Jahody";
+  $Veci["NaSklade"]["ovoce"]["Bobulové"]= "Hrozny";
+  $Veci["NaSklade"]["ovoce"]["Bobulové"]= "šípky";
+  $Veci["NaSklade"]["ovoce"]["Bobulové"]= "Jeřabiny";
+  $Veci["NaSklade"]["ovoce"]["Bobulové"]= "Moruše";
+  
+  
+  var_dump($Veci);
   
   
   
