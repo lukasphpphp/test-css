@@ -60,5 +60,62 @@ $PromennaBoleen = true;                   //ukol c. 4.
   var_dump ($a && $b);
   var_dump (!$a);
   
+  echo '<br>';
+  
   //pokračování test
    
+  $LukasNevedel1 = 1;      //ukol c. 3.
+  $LukasNevedel2 = 2;
+  
+  if (1<2) {
+      echo 'Lukas Nevedel';     //ukol c. 4     
+  }
+  echo '<br>';
+  
+  if (10<5) {                   //ukol c. 5
+      echo 'neplati';
+  }   else if (5<10){
+         echo 'Lukas';
+  }   if (20<10){
+         echo 'neplati';
+  }   else {
+      echo 'Nevedel';
+  }
+  echo '<br>';
+  
+  switch ($LukasNevedel2){          //ukol c. 7
+     case 1:
+        echo '1';
+        break;
+     case 2:
+         echo'2';
+         break;
+     case 3:
+         echo'3';
+         break;
+     case 4:
+         echo'4';
+         break;
+     case 5;
+         echo'5';
+         break;
+     case 6:
+         echo '6';
+         break;
+  }
+  echo '<br<';
+  
+  $Ovoce = array('ananas', 'avokádo', 'banán', 'datle', 'fík', 'meruňka', 'nektarinka', 'jahody', 'jablko', 'malina' );  //ukol c. 8
+  
+  $Veci["NaSklade"]["ovoce"]["Bobulové"]= "";
+  $Veci["NaSklade"]["ovoce"]["Bobulové"]= "rybíz";
+  $Veci["NaSklade"]["ovoce"]["Bobulové"]= "Bobulové";
+  
+  
+  
+  
+  
+  //$Jmeno = 'Lukas';
+  //$Prijmeni = 'Nevedel';
+  //echo ($Jmeno);
+  //echo ($Prijmeni);
