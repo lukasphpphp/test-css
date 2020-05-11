@@ -144,12 +144,66 @@ echo '<br>';
   
   
   var_dump($Veci);
+  echo '<br>';
+  echo '<br>';
   
   
   
   
+  //pokračování test php cyklus
   
-  //$Jmeno = 'Lukas';
-  //$Prijmeni = 'Nevedel';
-  //echo ($Jmeno);
-  //echo ($Prijmeni);
+  
+  $radekJmenoPrijmeni= 'Září';
+  $sloupecJmenoPrijmeni = 17;    
+
+
+  for ($radekJmenoPrijmeni = 0; $radekJmenoPrijmeni < 10; $radekJmenoPrijmeni++){
+      echo '<table>';
+      echo '<tr>';
+      echo '<td> </td>';
+      echo '</tr>';
+      
+    for ($sloupecJmenoPrijmeni = 0; $sloupecJmenoPrijmeni< 10; $sloupecJmenoPrijmeni++){
+   }
+   }
+   
+   echo '<br>';
+  
+          
+   $cislo = 25.988;          //ukol c 4 matematické funkce
+     echo ceil ($cislo);
+     echo '<br>';
+     echo floor($cislo);
+     echo '<br>';
+   
+   $Spojit = array (1 => 'šípky', 'ananas', 'banán');     //ukol c 4 řetězcové funkce
+   $Slovo = 'nazdar';  
+     echo join ($Spojit);     
+     echo '<br>';
+     echo md5 ($Slovo);
+     echo '<br>';
+     echo ucfirst ($Slovo);
+     echo '<br>';
+     
+     
+     echo sizeof ($Spojit);       //ukol c 4 funkce pro práci s poli
+     echo '<br>';
+     echo end ($Spojit);
+     echo '<br>';
+     
+     
+     foreach ($Ovoce as $key => $value){             //ukol c 5
+         echo $key . ". " . $value. "<br>";
+     }
+     
+
+     function JakyMasDen (){                     //ukol c 6
+         echo ('Jak se dneska máš');
+         echo '<br>';
+     }
+     
+     JakyMasDen();
+     
+     
+
+     
